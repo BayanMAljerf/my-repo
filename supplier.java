@@ -35,7 +35,7 @@ public class supplier extends Sim_entity {
            sim_get_next(new Sim_from_p(Sim_system.get_entity_id("company")),e);
      sim_process (delay1.sample());
      sim_completed(e);
-      sim_schedule(out,0.0,0);
+      sim_schedule(out,0.0,1);
     sim_pause(delay2);
     
     }
